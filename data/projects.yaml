@@ -27,6 +27,7 @@ categories:
       - {name: DeepL, website: "https://www.deepl.com/translator", note: "DeepL 翻译"}
       - {name: OpenAI Translate, website: "https://platform.openai.com/usage", note: "API 中的翻译能力"}
       - {name: NLLB (Demo), website: "https://ai.meta.com/research/no-language-left-behind/", note: "Meta 研究"}
+      - {name: NLLB (Demo), website: "https://aimangatranslate.com/", note: "Planva"}
 
   - id: video
     title: 视频 / 影视生成
