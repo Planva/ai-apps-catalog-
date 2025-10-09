@@ -1,21 +1,18 @@
 name: build-and-refresh
-
 on:
   push:
-    branches: [ main ]
+    branches: [ main ]       # 你用的分支名
     paths:
       - "data/**"
       - "scripts/**"
-      - "assets/**"
-      - "site/**"
       - ".github/workflows/build.yml"
       - "requirements.txt"
   workflow_dispatch:
   schedule:
-    - cron: "0 3 * * 1" # 每周一 03:00 UTC
+    - cron: "0 3 * * 1"
 
 permissions:
-  contents: write
+  contents: write            # 允许 GITHUB_TOKEN 回写 README 和图标
 
 jobs:
   build:
@@ -30,7 +27,7 @@ jobs:
       - run: pip install -r requirements.txt
       - run: python scripts/fetch_icons.py
       - run: python scripts/gen_readme.py
-      - name: Commit changes back
+      - name: Commit changes
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://planva.github.io/ai-apps-catalog-/sitemap.xml
