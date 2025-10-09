@@ -1,0 +1,83 @@
+categories:
+  - id: chat
+    title: 聊天 / 助手
+    items:
+      - {name: ChatGPT, website: "https://openai.com/chatgpt", note: "OpenAI"}
+      - {name: Claude, website: "https://www.anthropic.com/claude", note: "Anthropic"}
+      - {name: DeepSeek, website: "https://www.deepseek.com/", note: "Reasoning"}
+      - {name: Perplexity, website: "https://www.perplexity.ai/", note: "Answer engine"}
+      - {name: Google Gemini, website: "https://gemini.google.com/app", note: "Google"}
+      - {name: Microsoft Copilot, website: "https://copilot.microsoft.com/", note: "Microsoft"}
+      - {name: Kimi, website: "https://kimi.moonshot.cn/", note: "Moonshot AI"}
+
+  - id: image
+    title: 图片生成 / 图像
+    items:
+      - {name: DALL·E, website: "https://openai.com/dall-e-3", note: "OpenAI"}
+      - {name: Stable Diffusion, website: "https://stability.ai/", note: "Stability AI"}
+      - {name: Midjourney, website: "https://www.midjourney.com/", note: "社区/Bot"}
+      - {name: Flux, website: "https://black-forest-labs.com/", note: "BFL"}
+      - {name: Playground, website: "https://playground.com/", note: "Playground v2"}
+      - {name: Ideogram, website: "https://ideogram.ai/", note: "排版/字效"}
+
+  - id: translate
+    title: 翻译 / 语言
+    items:
+      - {name: Google Translate, website: "https://translate.google.com/", note: "谷歌翻译"}
+      - {name: DeepL, website: "https://www.deepl.com/translator", note: "DeepL 翻译"}
+      - {name: OpenAI Translate, website: "https://platform.openai.com/usage", note: "API 中的翻译能力"}
+      - {name: NLLB (Demo), website: "https://ai.meta.com/research/no-language-left-behind/", note: "Meta 研究"}
+
+  - id: video
+    title: 视频 / 影视生成
+    items:
+      - {name: Runway Gen-3, website: "https://runwayml.com/", note: "Runway"}
+      - {name: Pika, website: "https://pika.art/", note: "视频生成"}
+      - {name: Luma Dream Machine, website: "https://lumalabs.ai/dream-machine", note: "Luma AI"}
+      - {name: Kling AI, website: "https://klingai.com/", note: "快手"}
+      - {name: Stable Video Diffusion, website: "https://stability.ai/stable-video", note: "Stability AI"}
+      - {name: Sora (preview), website: "https://openai.com/sora", note: "研究预览"}
+
+  - id: code
+    title: 代码助手 / 开发
+    items:
+      - {name: GitHub Copilot, website: "https://github.com/features/copilot", note: "GitHub"}
+      - {name: CodeWhisperer, website: "https://aws.amazon.com/codewhisperer/", note: "AWS"}
+      - {name: Cursor, website: "https://cursor.com/", note: "AI IDE"}
+      - {name: Windsurf, website: "https://codeium.com/windsurf", note: "Codeium IDE"}
+      - {name: Codeium, website: "https://codeium.com/", note: "代码补全"}
+      - {name: Replit AI, website: "https://replit.com/ai", note: "Replit"}
+
+  - id: audio
+    title: 语音 / 音频 / 音乐
+    items:
+      - {name: ElevenLabs, website: "https://elevenlabs.io/", note: "TTS/配音"}
+      - {name: OpenAI TTS, website: "https://platform.openai.com/docs/guides/text-to-speech", note: "多语音合成"}
+      - {name: Suno, website: "https://suno.com/", note: "AI 音乐"}
+      - {name: Udio, website: "https://www.udio.com/", note: "AI 音乐"}
+      - {name: Voicebox (Meta, research), website: "https://ai.meta.com/blog/voicebox/", note: "研究"}
+
+  - id: productivity
+    title: 办公 / 文档 / 生产力
+    items:
+      - {name: Notion AI, website: "https://www.notion.so/product/ai", note: "笔记/文档"}
+      - {name: Google Workspace Duet/Gemini, website: "https://workspace.google.com/intl/zh-cn/products/gemini/", note: "Docs/Sheets/Slides"}
+      - {name: Microsoft Copilot for 365, website: "https://www.microsoft.com/en-us/microsoft-365/copilot", note: "Word/Excel/PPT"}
+      - {name: Canva Magic, website: "https://www.canva.com/magic/", note: "设计"}
+      - {name: SlidesAI, website: "https://www.slidesai.io/", note: "PPT 生成"}
+
+  - id: search
+    title: 搜索 / 资料助理
+    items:
+      - {name: Perplexity, website: "https://www.perplexity.ai/", note: "Answer engine"}
+      - {name: You.com, website: "https://you.com/", note: "AI 搜索"}
+      - {name: Phind, website: "https://www.phind.com/", note: "开发者搜索"}
+      - {name: Kagi, website: "https://kagi.com/", note: "订阅搜索"}
+
+  - id: agent
+    title: 智能体 / 自动化
+    items:
+      - {name: LangChain Agents (docs), website: "https://python.langchain.com/docs/modules/agents/", note: "框架"}
+      - {name: AutoGen (Microsoft), website: "https://microsoft.github.io/autogen/", note: "多智能体"}
+      - {name: CrewAI, website: "https://www.crewai.com/", note: "多智能体编排"}
+      - {name: OpenDevin, website: "https://opendevin.github.io/", note: "自动化开发"}
